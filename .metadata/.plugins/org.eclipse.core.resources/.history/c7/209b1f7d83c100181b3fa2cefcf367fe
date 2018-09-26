@@ -1,0 +1,17 @@
+package com.dao;
+
+public class UserDao {
+
+	
+	public static void main(String[] args) {
+		
+		StandardServiceRegistry ssr = new StandardServiceRegistryBuilder().configure("hibernet.cfg.xml").build();
+		MetaData data = new MetaDataSources(ssr).getMetaDataBuilder().build();
+		
+	
+		
+		
+		
+		
+	}
+}

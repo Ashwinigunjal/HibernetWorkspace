@@ -1,0 +1,19 @@
+package com.dao;
+
+import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
+
+public class UserDao {
+
+	
+	public static void main(String[] args) {
+		
+		StandardServiceRegooistry ssr = new StandardServiceRegistryBuilder().configure("hibernet.cfg.xml").build();
+		Metadata meta = new MetaDataSources(ssr).getMetaDataBuilder().build();
+		
+	
+		
+		
+		
+		
+	}
+}
